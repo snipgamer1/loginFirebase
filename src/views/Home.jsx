@@ -43,7 +43,7 @@ function Home() {
     <div >
     <Navbar user={user}/>
     <div className='flex flex-col items-center justify-center h-full' >
-    <Card pendientes={pendientes}/>
+    <Card user={user} />
 
     </div>
     </div>
